@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FDFCFC; /* White */
+  color: #0B2341; /* Dark Blue */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+}

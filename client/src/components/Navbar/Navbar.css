@@ -1,0 +1,128 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0B2341; /* Dark Blue */
+  color: #FDFCFC; /* White */
+  padding: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Great Vibes', cursive; /* Apply Great Vibes font */
+}
+
+.navbar-logo img {
+  height: 100px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Increase the font size of the brand text */
+.Brandtitle {
+  font-size: 2.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.nav-links li a {
+  color: #FDFCFC; /* White */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav-links li a:hover {
+  color: #35D8F4; /* Light Blue */
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Navbar hover effect */
+.Navbar:hover .menu-toggle {
+  color: #35D8F4; /* Light Blue */
+}
+
+.Navbar:hover .menu-toggle:before,
+.Navbar:hover .menu-toggle:after {
+  background-color: #35D8F4; /* Light Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-logo img {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #0B2341; /* Dark Blue */
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: #FDFCFC; /* White */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+
+  /* Menu toggle hover effect */
+  .menu-toggle:hover {
+    color: #35D8F4; /* Light Blue */
+  }
+
+  .menu-toggle:before,
+  .menu-toggle:after {
+    background-color: #FDFCFC; /* White */
+  }
+}
+
+.Navbar {
+  /* Existing styles */
+  transition: background-color 0.3s ease; /* Add transition for smooth background color change */
+}
+
+.Navbar:hover {
+  background-color: #2F4D6B; /* Medium Blue */
+}
+
+.navbar-logo {
+  /* Existing styles */
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  transition: transform 0.3s ease; /* Add transition for smooth scale effect */
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+.menu-toggle {
+  /* Existing styles */
+  margin-right: 1.5rem;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.menu-toggle:hover {
+  color: #35D8F4; /* Light Blue */
+}

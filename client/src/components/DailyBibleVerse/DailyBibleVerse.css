@@ -1,0 +1,21 @@
+.DailyBibleVerse {
+    padding: 2rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+.verse{
+  background-color: #0B2341;
+  background-image: url('../../versebackground.png');
+  background-size: contain;
+  color: white;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 3rem;
+}
