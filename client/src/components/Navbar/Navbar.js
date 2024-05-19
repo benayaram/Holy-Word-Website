@@ -21,7 +21,7 @@ function Navbar() {
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
         <li><Link to="/daily-bible-verse" onClick={toggleMenu}>Daily Bible Verse</Link></li>
-        <li><Link to="/songs" onClick={toggleMenu}>Songs App</Link></li>
+        <li><Link to="/songsapp" onClick={toggleMenu}>Songs App</Link></li>
         <li><Link to="/contact-us" onClick={toggleMenu}>Contact Us</Link></li>
       </ul>
     </nav>
