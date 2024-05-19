@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import './Home.css';
 import Logo from "../../logo.png"
@@ -16,7 +17,7 @@ function Home() {
             <a className="button" href="#bibleverse" >Explore Now</a>
           </div>
           <div class="right-content">
-            <img src={Logo} />
+            <img src={Logo} alt="Holy Word Logo of the Website"/>
           </div>
         </div>
 
