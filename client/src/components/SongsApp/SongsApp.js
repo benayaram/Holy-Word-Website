@@ -17,7 +17,7 @@ function SongsApp() {
       </section>
       <section className="songs-section">
         <h2>Songs</h2>
-        <p>Here you can find the Lyrics pf inspiring songs and Access songs, <br></br>  Add to Favorite, and much more</p>
+        <p>Here you can find the Lyrics of inspiring songs and Access songs, <br></br>  Add to Favorite, and much more</p>
       </section>
     </div>
   );
